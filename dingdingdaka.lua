@@ -131,6 +131,6 @@ do
         randsleep=math.random(30)
         local mes="下次运行是"..randsleep.."分钟后";
         dialog(mes,2)
-        mSleep(randsleep);
+        mSleep(randsleep*60*1000);
 
 end
